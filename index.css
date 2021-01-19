@@ -30,7 +30,7 @@ h4{
 }
 
 .button{
-  max-width: 150px;
+  max-width: 200px;
   padding: 5px;
   position: relative;
   text-align: center;
@@ -45,6 +45,7 @@ h4{
   outline: none;
   margin-top: 20px;
   background-color: #1E4BD2;
+  height: auto;
 }
 
 .disabled{
