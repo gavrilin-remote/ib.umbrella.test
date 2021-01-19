@@ -1,0 +1,56 @@
+.public-layout {
+  position: relative;
+  height: 100vh;
+  max-width: 100%;
+  min-width: 1240px;
+  display: flex;
+  justify-content: center;
+  background: url('../../assets/img/login_bg.jpeg') no-repeat 100% 50%;
+  background-size: cover;
+}
+.main {
+  display: flex;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 460px;
+  height: 260px;
+  padding: 60px 40px 125px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05);
+  background-color: #FFFFFF;
+  margin-top: 40px;
+}
+
+h4{
+  font-family: Roboto, sans-serif;
+}
+
+.button{
+  max-width: 150px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  color: #FFFFFF;
+  cursor: pointer;
+  border-width: 1px;
+  border-color: transparent;
+  outline: none;
+  margin-top: 20px;
+  background-color: #1E4BD2;
+}
+
+.disabled{
+  opacity:0.5;
+}
+
+.body {
+  margin: 0;
+}
