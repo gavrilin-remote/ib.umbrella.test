@@ -15,9 +15,10 @@
 .block {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   position: relative;
   width: 460px;
-  height: 260px;
+  height: 300px;
   padding: 60px 40px 125px;
   border-radius: 6px;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05);
@@ -43,7 +44,6 @@ h4{
   border-width: 1px;
   border-color: transparent;
   outline: none;
-  margin-top: 20px;
   background-color: #1E4BD2;
   height: auto;
 }
